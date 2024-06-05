@@ -1,14 +1,17 @@
 import { ProductModel } from "./models/productsModel.js";
 
 export default class MongoDaoManager {
-  async getProducts() {
+  async getProducts(page = 1, limit = 10, category, sort ) {
     try {
-      const response = await ProductModel.find({});
+      const filter = category ? { 'category': category } : {};
+      const sortOrder = {}
+        if (sort) sortOrder.price = sort === 'asc' ? 1 : sort === 'desc' ? -1 : null; 
+        const response = await ProductModel.paginate(filter,{page, limit, sort: sortOrder})
       return response;
     } catch (error) {
       throw new Error(error);
     }
-  }
+  };
 
   async getProductsById(id) {
     try {
@@ -28,14 +31,13 @@ export default class MongoDaoManager {
     }
   }
 
-  async updateProduct(id, obj) {
+  /*async getByCategory(category) {
     try {
-      const response = await ProductModel.findByIdAndUpdate(id, obj);
-      return response;
+      return await ProductModel.find({ category: category })
     } catch (error) {
-      throw new Error(error);
-    }
-  }
+      throw new Error("errorDAO" + error);
+  
+  }}*/
 
   async deleteProduct(id) {
     try {

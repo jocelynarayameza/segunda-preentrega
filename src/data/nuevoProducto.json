@@ -6,6 +6,7 @@
     "price": 200,
     "thumbnail": "Sin imagen",
     "code": "abc123",
+    "category": "Playstation",
     "stock": 25
   },
   {
@@ -15,6 +16,7 @@
     "price": 250,
     "thumbnail": "Sin imagen2",
     "code": "abc1234",
+    "category": "Xbox",
     "stock": 26
   },
   {
@@ -24,6 +26,7 @@
     "price": 260,
     "thumbnail": "Sin imagen3",
     "code": "abc1235",
+    "category": "Nintendo",
     "stock": 27
   },
   {
@@ -33,6 +36,7 @@
     "price": 270,
     "thumbnail": "Sin imagen4",
     "code": "abc1236",
+    "category": "Steam",
     "stock": 28
   },
   {
@@ -42,6 +46,7 @@
     "price": 280,
     "thumbnail": "Sin imagen5",
     "code": "abc1237",
+    "category": "Sega",
     "stock": 29
   },
   {
@@ -51,6 +56,7 @@
     "price": 290,
     "thumbnail": "Sin imagen6",
     "code": "abc1238",
+    "category": "PC",
     "stock": 10
   },
   {
@@ -60,6 +66,7 @@
     "price": 300,
     "thumbnail": "Sin imagen7",
     "code": "abc456",
+    "category": "Nintendo",
     "stock": 12
   },
   {
@@ -69,6 +76,7 @@
     "price": 310,
     "thumbnail": "Sin imagen8",
     "code": "abc888",
+    "category": "Playstation",
     "stock": 4
   },
   {
@@ -78,6 +86,7 @@
     "price": 320,
     "thumbnail": "Sin imagen9",
     "code": "abc999",
+    "category": "Sega",
     "stock": 13
   },
   {
@@ -87,6 +96,7 @@
     "price": 330,
     "thumbnail": "Sin imagen10",
     "code": "abc100",
+    "category": "PC",
     "stock": 14
   },
   {
@@ -96,6 +106,7 @@
     "price": 340,
     "thumbnail": "Sin imagen11",
     "code": "abc111",
+    "category": "Sega",
     "stock": 15
   },
   {
@@ -105,6 +116,7 @@
     "price": 350,
     "thumbnail": "Sin imagen12",
     "code": "abc112",
+    "category": "Xbox",
     "stock": 16
   },
   {
@@ -114,6 +126,7 @@
     "price": 360,
     "thumbnail": "Sin imagen13",
     "code": "abc113",
+    "category": "Nintendo",
     "stock": 17
   },
   {
@@ -123,6 +136,7 @@
     "price": 370,
     "thumbnail": "Sin imagen14",
     "code": "abc114",
+    "category": "Steam",
     "stock": 18
   },
   {
@@ -132,6 +146,7 @@
     "price": 380,
     "thumbnail": "Sin imagen15",
     "code": "abc115",
+    "category": "Playstation",
     "stock": 19
   },
   {
@@ -141,7 +156,8 @@
     "price": 390,
     "thumbnail": "Sin imagen16",
     "code": "abc116",
-    "stock": 20
+    "category": "PC",
+    "stock": 23
   },
   {
     "id": "724b193e-90bc-4c7b-96d2-6d1c9fc3e216",
@@ -150,6 +166,7 @@
     "price": 400,
     "thumbnail": "Sin imagen17",
     "code": "abc117",
+    "category": "Sega",
     "stock": 21
   },
   {
@@ -159,6 +176,7 @@
     "price": 410,
     "thumbnail": "Sin imagen18",
     "code": "abc118",
+    "category": "Xbox",
     "stock": 22
   },
   {
@@ -168,6 +186,7 @@
     "price": 420,
     "thumbnail": "Sin imagen19",
     "code": "abc119",
+    "category": "Nintendo",
     "stock": 23
   },
   {
@@ -177,6 +196,7 @@
     "price": 430,
     "thumbnail": "Sin imagen20",
     "code": "abc120",
+    "category": "Steam",
     "stock": 24
   },
   {
@@ -186,6 +206,7 @@
     "price": 440,
     "thumbnail": "Sin imagen21",
     "code": "abc121",
+    "category": "Playstation",
     "stock": 25
   },
   {
@@ -195,6 +216,7 @@
     "price": 450,
     "thumbnail": "Sin imagen22",
     "code": "abc122",
+    "category": "Xbox",
     "stock": 26
   },
   {
@@ -204,6 +226,7 @@
     "price": 460,
     "thumbnail": "Sin imagen23",
     "code": "abc123",
+    "category": "Nintendo",
     "stock": 27
   },
   {
@@ -213,6 +236,7 @@
     "price": 470,
     "thumbnail": "Sin imagen24",
     "code": "abc124",
+    "category": "Steam",
     "stock": 28
   },
   {
@@ -222,6 +246,7 @@
     "price": 480,
     "thumbnail": "Sin imagen25",
     "code": "abc125",
+    "category": "Sega",
     "stock": 29
   },
   {
@@ -231,6 +256,7 @@
     "price": 490,
     "thumbnail": "Sin imagen26",
     "code": "abc126",
+    "category": "PC",
     "stock": 30
   },
   {
@@ -240,6 +266,7 @@
     "price": 500,
     "thumbnail": "Sin imagen27",
     "code": "abc127",
+    "category": "Playstation",
     "stock": 31
   },
   {
@@ -249,6 +276,7 @@
     "price": 510,
     "thumbnail": "Sin imagen28",
     "code": "abc128",
+    "category": "Xbox",
     "stock": 32
   },
   {
@@ -258,6 +286,7 @@
     "price": 520,
     "thumbnail": "Sin imagen29",
     "code": "abc129",
+    "category": "Nintendo",
     "stock": 33
   },
   {
@@ -267,6 +296,57 @@
     "price": 530,
     "thumbnail": "Sin imagen30",
     "code": "abc130",
+    "category": "Sega",
     "stock": 34
+  },
+  {
+    "id": "b5e1ec35-05df-4a53-aeb5-39ff44e5a3c2",
+    "title": "producto prueba31",
+    "description": "Este es un producto prueba31",
+    "price": 540,
+    "thumbnail": "Sin imagen31",
+    "code": "abc131",
+    "category": "PC",
+    "stock": 35
+  },
+  {
+    "id": "76a7fc80-b18e-489a-a80a-c99d378d1940",
+    "title": "producto prueba32",
+    "description": "Este es un producto prueba32",
+    "price": 550,
+    "thumbnail": "Sin imagen32",
+    "code": "abc132",
+    "category": "Playstation",
+    "stock": 36
+  },
+  {
+    "id": "0ff2c0f1-f06a-45fc-82c0-fc5ffdbb89e7",
+    "title": "producto prueba33",
+    "description": "Este es un producto prueba33",
+    "price": 560,
+    "thumbnail": "Sin imagen33",
+    "code": "abc133",
+    "category": "Sega",
+    "stock": 37
+  },
+  {
+    "id": "84a90362-9c70-4997-83ad-af39d0294cf0",
+    "title": "producto prueba34",
+    "description": "Este es un producto prueba34",
+    "price": 570,
+    "thumbnail": "Sin imagen34",
+    "code": "abc134",
+    "category": "Steam",
+    "stock": 38
+  },
+  {
+    "id": "8a1422d1-59bb-4571-833a-7f47bfb24f7b",
+    "title": "producto prueba35",
+    "description": "Este es un producto prueba35",
+    "price": 580,
+    "thumbnail": "Sin imagen35",
+    "code": "abc135",
+    "category": "Nintendo",
+    "stock": 39
   }
 ]

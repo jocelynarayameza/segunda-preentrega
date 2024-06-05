@@ -6,9 +6,9 @@ import {__dirname} from '../utils.js';
 //const productDao = new ProductManager(`${__dirname}/data/nuevoProducto.json`);
 
 
-export const getAll = async () => {
+export const getAll = async (page, limit, category, sort) => {
   try {
-    return await productDao.getProducts();
+    return await productDao.getProducts(page, limit, category, sort);
   } catch (error) {
     throw new Error(error);
   }
@@ -29,6 +29,14 @@ export const create = async (obj) => {
     throw new Error(error);
   }
 };
+
+/*export const getByCategory = async (category) => {
+  try {
+    return await productDao.getByCategory(category);
+  } catch (error) {
+    throw new Error("error service error: " + error);
+  }
+};*/
 
 export const update = async (id, obj) => {
   try {

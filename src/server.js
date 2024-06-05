@@ -7,7 +7,8 @@ import morgan from "morgan";
 import handlebars from "express-handlebars";
 import { Server } from "socket.io";
 import { connectMongoDB } from "./daos/mongodb/connection.js";
-import 'dotenv/config';
+import * as dotenv from 'dotenv';
+dotenv.config({ path: './.env' });
 
 const app = express();
 

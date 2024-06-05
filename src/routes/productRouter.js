@@ -9,6 +9,8 @@ router.get("/", controller.getProducts);
 
 router.get("/:id", controller.getProductsById);
 
+//router.get("/category", controller.getByCategory);
+
 router.post("/", productValidator, controller.addProduct); 
 
 router.put("/:id", controller.updateProduct);

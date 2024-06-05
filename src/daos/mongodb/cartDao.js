@@ -13,7 +13,7 @@ export default class CartDaoManager {
 
     async getCartById(id) {
         try {
-            const response = await CartsModel.findById(id);
+            const response = await CartsModel.findById(id).populate('products.product');
             return response;
         } catch (error) {
             throw new Error(error);
